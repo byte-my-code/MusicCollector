@@ -18,12 +18,12 @@ I wanted to make the basic layout the same (or similar) to the Wagtail demo site
 **These must be done** before running `python manage.py migrate` or the system will bail with errors.
 
 ## Running Locally
-Clone the repo somewhere (ie `~/Sites/`)
-Change into the directory (`cd musiccollector`)
-Create a virtualenv (mkvirtualenv or pipenv)
-`pip install -r requirements.txt`
-`python manage.py migrate`
-`python manage.py createsuperuser`
-`python manage.py runserver`
+- Clone the repo somewhere (ie `~/Sites/`)
+- Change into the directory (`cd musiccollector`)
+- Create a virtualenv (mkvirtualenv or pipenv)
+- `pip install -r requirements.txt`
+- `python manage.py migrate`
+- `python manage.py createsuperuser`
+- `python manage.py runserver`
 
 You should be able to visit the homepage at [http://127.0.0.1:8000](http://127.0.0.1:8000)
