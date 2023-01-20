@@ -31,6 +31,6 @@ I wanted to make the basic layout the same (or similar) to the Wagtail demo site
 - `python manage.py migrate`
 - `python manage.py createsuperuser`
 - `python manage.py runserver`
-- (In another shell) npm run-script run (to build tailwindcss)
+- (In another shell) `npm run-script run` (this will watch the filetree for changes)
 
 You should be able to visit the homepage at [http://127.0.0.1:8000](http://127.0.0.1:8000)
