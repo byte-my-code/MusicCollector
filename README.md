@@ -4,6 +4,10 @@ A simple website/blog written with Wagtail CMS. This project is based on info gl
 the official [Wagtail Bakery Demo](https://github.com/wagtail/bakerydemo), and watching the
 [Learn Wagtail](https://www.youtube.com/playlist?list=PLMQHMcNi6ocsS8Bfnuy_IDgJ4bHRRrvub) videos on Youtube.
 
+This is my learing project, and will most probably contain bugs/errors and may not adhere to best practices! I
+plan to add to it as I learn new parts of the Wagtail ecosystem, and therefore parts are likely to change over
+the course of the project. Most of the focus will be on the backend code rather than the frontend style.
+
 ## About the Basic Setup
 I wanted to make the basic layout the same (or similar) to the Wagtail demo site. To do this I had to do the following:
 
