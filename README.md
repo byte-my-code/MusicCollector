@@ -8,6 +8,8 @@ This is my learing project, and will most probably contain bugs/errors and may n
 plan to add to it as I learn new parts of the Wagtail ecosystem, and therefore parts are likely to change over
 the course of the project. Most of the focus will be on the backend code rather than the frontend style.
 
+In also plan to have a live version once I have the basics done first.
+
 ## About the Basic Setup
 I wanted to make the basic layout the same (or similar) to the Wagtail demo site. To do this I had to do the following:
 
