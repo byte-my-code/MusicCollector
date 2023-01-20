@@ -9,7 +9,7 @@ I wanted to make the basic layout the same (or similar) to the Wagtail demo site
 
 - Create the Wagtail site in the root directory (`wagtail start website .`)
 - Rename the `home` directory to `base`
-- Move both `home` and `search` into the `website` directory
+- Move both `base` and `search` into the `website` directory
 - Move the static/template files from both apps into the site template/static folders.
 - Adjust the migrations in the base app, and rename any reference to the `home` app to `base` (in 0002 migration file)
 - Adjust the app names in settings/base.py to `website.base` and `website.search`
