@@ -1,4 +1,4 @@
-{% load static wagtailcore_tags wagtailuserbar base_tags %}
+{% load static wagtailcore_tags wagtailuserbar base_tags compress %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -40,14 +40,16 @@
 
     {# Global stylesheets #}
     <link rel="stylesheet" type="text/css" href="{% static 'cookieconsent.css' %}">
+    {% compress css %}
     <link rel="stylesheet" type="text/css" href="{% static 'css/website.css' %}">
+    {% endcompress %}
 
     {% block extra_css %}
     {# Override this in templates to add extra stylesheets #}
     {% endblock %}
 </head>
 
-<body class="{% block body_class %}{% endblock %}">
+<body class="bg-green-50 {% block body_class %}{% endblock %}">
 
     {% if gtm_uid != "" %}
     {# Only show if there is a GTM UID configured in the admin panel #}
@@ -59,7 +61,9 @@
 
     {% wagtailuserbar %}
 
-    {% block content %}{% endblock %}
+    <div class="container mx-auto mt-4">
+        {% block content %}{% endblock %}
+    </div>
 
     {# Global javascript #}
     <script defer type="text/javascript" src="{% static 'cookieconsent.js' %}"></script>

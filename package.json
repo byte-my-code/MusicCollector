@@ -1,0 +1,20 @@
+{
+  "name": "musiccollector",
+  "version": "1.0.0",
+  "description": "A simple website/blog written with Wagtail CMS. This project is based on info gleamed from the official [Wagtail Bakery Demo](https://github.com/wagtail/bakerydemo), and watching the [Learn Wagtail](https://www.youtube.com/playlist?list=PLMQHMcNi6ocsS8Bfnuy_IDgJ4bHRRrvub) videos on Youtube.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "run": "npx tailwindcss -i ./website/static/src/input.css -o ./website/static/css/website.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byte-my-code/musiccollector.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byte-my-code/musiccollector/issues"
+  },
+  "homepage": "https://github.com/byte-my-code/musiccollector#readme"
+}
