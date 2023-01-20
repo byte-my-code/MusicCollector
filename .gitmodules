@@ -1,0 +1,3 @@
+[submodule "vendor/cookieconsent"]
+	path = vendor/cookieconsent
+	url = https://github.com/byte-my-code/cookieconsent.git

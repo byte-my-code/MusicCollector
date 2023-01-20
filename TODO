@@ -1,0 +1,20 @@
+Music Collector Website Todo
+
+- DONE Create Basic Wagtail Site and reorganize apps per 'bakerydemo' code
+- Base Site design
+    - base template(s)
+        - import theme css/js
+        - Cookie policy injection
+    - snippets
+        - Header/Site branding (logo, colours etc)
+        - Footer (see BakeryDemo for example)
+        - Analytics (Google, Bing etc)
+    - Site Navigation
+        - Desktop Nav
+        - Mobile Nav
+- Design Homepage (base/models.py)
+    - Featured Article/News Item
+    - News Aggregator
+    - Latest Reviews (Affitlate Marketing potential) [Max 3?]
+    - Latest Blog posts [Max 3?]
+- MORE...
